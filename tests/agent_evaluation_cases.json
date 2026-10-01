@@ -1,0 +1,303 @@
+[
+  {
+    "id": 1,
+    "category": "current_risk",
+    "question": "Quel est le risque actuel de mon portefeuille ?",
+    "expected_tool": "get_current_risk",
+    "expected_arguments": {}
+  },
+  {
+    "id": 2,
+    "category": "current_risk",
+    "question": "Donne-moi la VaR actuelle du portefeuille.",
+    "expected_tool": "get_current_risk",
+    "expected_arguments": {}
+  },
+  {
+    "id": 3,
+    "category": "current_risk",
+    "question": "Quelle est notre volatilité actuelle ?",
+    "expected_tool": "get_current_risk",
+    "expected_arguments": {}
+  },
+  {
+    "id": 4,
+    "category": "current_risk",
+    "question": "Quel est l'Expected Shortfall actuel ?",
+    "expected_tool": "get_current_risk",
+    "expected_arguments": {}
+  },
+  {
+    "id": 5,
+    "category": "current_risk",
+    "question": "Combien risque actuellement le portefeuille sur une journée ?",
+    "expected_tool": "get_current_risk",
+    "expected_arguments": {}
+  },
+  {
+    "id": 6,
+    "category": "current_risk",
+    "question": "Affiche les indicateurs de risque les plus récents.",
+    "expected_tool": "get_current_risk",
+    "expected_arguments": {}
+  },
+  {
+    "id": 7,
+    "category": "current_risk",
+    "question": "Quelle est la VaR 99 % actuelle ?",
+    "expected_tool": "get_current_risk",
+    "expected_arguments": {}
+  },
+  {
+    "id": 8,
+    "category": "current_risk",
+    "question": "Quelle est la volatilité annualisée du portefeuille aujourd'hui ?",
+    "expected_tool": "get_current_risk",
+    "expected_arguments": {}
+  },
+  {
+    "id": 9,
+    "category": "current_risk",
+    "question": "Donne-moi un état actuel du risque de BNP, AXA et Société Générale dans notre portefeuille.",
+    "expected_tool": "get_current_risk",
+    "expected_arguments": {}
+  },
+  {
+    "id": 10,
+    "category": "current_risk",
+    "question": "What is the current portfolio risk?",
+    "expected_tool": "get_current_risk",
+    "expected_arguments": {}
+  },
+
+  {
+    "id": 11,
+    "category": "model_comparison",
+    "question": "Compare GARCH, LSTM et Hybrid.",
+    "expected_tool": "compare_volatility_models",
+    "expected_arguments": {}
+  },
+  {
+    "id": 12,
+    "category": "model_comparison",
+    "question": "Quel modèle obtient le plus faible MSE ?",
+    "expected_tool": "compare_volatility_models",
+    "expected_arguments": {}
+  },
+  {
+    "id": 13,
+    "category": "model_comparison",
+    "question": "Quel modèle possède le meilleur MAE sur nos actifs ?",
+    "expected_tool": "compare_volatility_models",
+    "expected_arguments": {}
+  },
+  {
+    "id": 14,
+    "category": "model_comparison",
+    "question": "Compare les QLIKE des trois modèles de volatilité.",
+    "expected_tool": "compare_volatility_models",
+    "expected_arguments": {}
+  },
+  {
+    "id": 15,
+    "category": "model_comparison",
+    "question": "Entre GARCH et LSTM, lequel suit le mieux les variations de volatilité ?",
+    "expected_tool": "compare_volatility_models",
+    "expected_arguments": {}
+  },
+  {
+    "id": 16,
+    "category": "model_comparison",
+    "question": "Montre-moi les performances de GARCH, LSTM et du modèle hybride.",
+    "expected_tool": "compare_volatility_models",
+    "expected_arguments": {}
+  },
+  {
+    "id": 17,
+    "category": "model_comparison",
+    "question": "Quel modèle a la meilleure corrélation avec la variance réalisée ?",
+    "expected_tool": "compare_volatility_models",
+    "expected_arguments": {}
+  },
+  {
+    "id": 18,
+    "category": "model_comparison",
+    "question": "Est-ce que le modèle hybride améliore vraiment GARCH et LSTM ?",
+    "expected_tool": "compare_volatility_models",
+    "expected_arguments": {}
+  },
+  {
+    "id": 19,
+    "category": "model_comparison",
+    "question": "Compare les erreurs de prévision de volatilité pour BNP, AXA et Société Générale.",
+    "expected_tool": "compare_volatility_models",
+    "expected_arguments": {}
+  },
+  {
+    "id": 20,
+    "category": "model_comparison",
+    "question": "Which volatility model performs best according to MSE, MAE, QLIKE and correlation?",
+    "expected_tool": "compare_volatility_models",
+    "expected_arguments": {}
+  },
+
+  {
+    "id": 21,
+    "category": "var_backtest",
+    "question": "Est-ce que notre VaR est bien calibrée ?",
+    "expected_tool": "get_var_backtest",
+    "expected_arguments": {}
+  },
+  {
+    "id": 22,
+    "category": "var_backtest",
+    "question": "Combien avons-nous eu de violations de VaR ?",
+    "expected_tool": "get_var_backtest",
+    "expected_arguments": {}
+  },
+  {
+    "id": 23,
+    "category": "var_backtest",
+    "question": "Donne-moi les résultats du test de Kupiec.",
+    "expected_tool": "get_var_backtest",
+    "expected_arguments": {}
+  },
+  {
+    "id": 24,
+    "category": "var_backtest",
+    "question": "La VaR 95 % du modèle hybride passe-t-elle le backtest ?",
+    "expected_tool": "get_var_backtest",
+    "expected_arguments": {}
+  },
+  {
+    "id": 25,
+    "category": "var_backtest",
+    "question": "Est-ce que GARCH à 99 % respecte la fréquence de violations attendue ?",
+    "expected_tool": "get_var_backtest",
+    "expected_arguments": {}
+  },
+  {
+    "id": 26,
+    "category": "var_backtest",
+    "question": "Teste la couverture historique de notre VaR.",
+    "expected_tool": "get_var_backtest",
+    "expected_arguments": {}
+  },
+  {
+    "id": 27,
+    "category": "var_backtest",
+    "question": "Notre modèle sous-estime-t-il les pertes extrêmes selon le backtest VaR ?",
+    "expected_tool": "get_var_backtest",
+    "expected_arguments": {}
+  },
+  {
+    "id": 28,
+    "category": "var_backtest",
+    "question": "Quelle est la p-value du test de Kupiec pour nos modèles ?",
+    "expected_tool": "get_var_backtest",
+    "expected_arguments": {}
+  },
+  {
+    "id": 29,
+    "category": "var_backtest",
+    "question": "Les violations observées correspondent-elles aux violations attendues ?",
+    "expected_tool": "get_var_backtest",
+    "expected_arguments": {}
+  },
+  {
+    "id": 30,
+    "category": "var_backtest",
+    "question": "Does our VaR pass the Kupiec backtest?",
+    "expected_tool": "get_var_backtest",
+    "expected_arguments": {}
+  },
+
+  {
+    "id": 31,
+    "category": "stress_test",
+    "question": "Analyse le scénario SEVERE_CRASH.",
+    "expected_tool": "run_stress_analysis",
+    "expected_arguments": {
+      "scenario": "SEVERE_CRASH"
+    }
+  },
+  {
+    "id": 32,
+    "category": "stress_test",
+    "question": "Que se passe-t-il en cas de crise bancaire ?",
+    "expected_tool": "run_stress_analysis",
+    "expected_arguments": {
+      "scenario": "BANKING_STRESS"
+    }
+  },
+  {
+    "id": 33,
+    "category": "stress_test",
+    "question": "Simule une forte correction du marché.",
+    "expected_tool": "run_stress_analysis",
+    "expected_arguments": {
+      "scenario": "MARKET_CORRECTION"
+    }
+  },
+  {
+    "id": 34,
+    "category": "stress_test",
+    "question": "Analyse l'impact d'un choc de taux.",
+    "expected_tool": "run_stress_analysis",
+    "expected_arguments": {
+      "scenario": "RATE_SHOCK"
+    }
+  },
+  {
+    "id": 35,
+    "category": "stress_test",
+    "question": "Quelle serait la perte du portefeuille pendant un crash sévère ?",
+    "expected_tool": "run_stress_analysis",
+    "expected_arguments": {
+      "scenario": "SEVERE_CRASH"
+    }
+  },
+  {
+    "id": 36,
+    "category": "stress_test",
+    "question": "Fais un stress test bancaire sur BNP, AXA et Société Générale.",
+    "expected_tool": "run_stress_analysis",
+    "expected_arguments": {
+      "scenario": "BANKING_STRESS"
+    }
+  },
+  {
+    "id": 37,
+    "category": "stress_test",
+    "question": "Teste notre portefeuille dans un scénario de correction des marchés.",
+    "expected_tool": "run_stress_analysis",
+    "expected_arguments": {
+      "scenario": "MARKET_CORRECTION"
+    }
+  },
+  {
+    "id": 38,
+    "category": "stress_test",
+    "question": "Que donnerait notre portefeuille avec le scénario RATE_SHOCK ?",
+    "expected_tool": "run_stress_analysis",
+    "expected_arguments": {
+      "scenario": "RATE_SHOCK"
+    }
+  },
+  {
+    "id": 39,
+    "category": "stress_test",
+    "question": "Compare tous les scénarios de stress disponibles.",
+    "expected_tool": "run_stress_analysis",
+    "expected_arguments": {}
+  },
+  {
+    "id": 40,
+    "category": "stress_test",
+    "question": "Run the severe crash stress scenario.",
+    "expected_tool": "run_stress_analysis",
+    "expected_arguments": {
+      "scenario": "SEVERE_CRASH"
+    }
+  }
+]

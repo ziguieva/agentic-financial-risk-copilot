@@ -1,0 +1,39 @@
+{
+  "model": "llama3.2:3b",
+  "total_cases": 40,
+  "tool_routing_accuracy_pct": 95.0,
+  "raw_argument_accuracy_pct": 92.5,
+  "guarded_argument_accuracy_pct": 92.5,
+  "full_call_accuracy_pct": 92.5,
+  "valid_call_rate_pct": 92.5,
+  "invalid_call_rate_pct": 7.5,
+  "mean_latency_seconds": 0.6532,
+  "p95_latency_seconds": 1.0761,
+  "max_latency_seconds": 6.356,
+  "by_category": {
+    "current_risk": {
+      "n_cases": 10,
+      "routing_accuracy_pct": 100.0,
+      "guarded_argument_accuracy_pct": 100.0,
+      "full_call_accuracy_pct": 100.0
+    },
+    "model_comparison": {
+      "n_cases": 10,
+      "routing_accuracy_pct": 100.0,
+      "guarded_argument_accuracy_pct": 100.0,
+      "full_call_accuracy_pct": 100.0
+    },
+    "stress_test": {
+      "n_cases": 10,
+      "routing_accuracy_pct": 100.0,
+      "guarded_argument_accuracy_pct": 90.0,
+      "full_call_accuracy_pct": 90.0
+    },
+    "var_backtest": {
+      "n_cases": 10,
+      "routing_accuracy_pct": 80.0,
+      "guarded_argument_accuracy_pct": 80.0,
+      "full_call_accuracy_pct": 80.0
+    }
+  }
+}

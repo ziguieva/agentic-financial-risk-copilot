@@ -1,0 +1,47 @@
+{
+    "portfolio_weights": {
+        "BNP": 0.3333333333333333,
+        "AXA": 0.3333333333333333,
+        "SOCIETE_GENERALE": 0.3333333333333333
+    },
+    "scenarios": {
+        "MARKET_CORRECTION": {
+            "description": "Broad but moderate equity market correction.",
+            "shocks": {
+                "BNP": -6.0,
+                "AXA": -5.0,
+                "SOCIETE_GENERALE": -8.0
+            },
+            "volatility_multiplier": 1.5
+        },
+        "RATE_SHOCK": {
+            "description": "Sharp interest-rate repricing affecting financial stocks.",
+            "shocks": {
+                "BNP": -7.0,
+                "AXA": -9.0,
+                "SOCIETE_GENERALE": -8.0
+            },
+            "volatility_multiplier": 1.7
+        },
+        "BANKING_STRESS": {
+            "description": "Severe banking-sector stress scenario.",
+            "shocks": {
+                "BNP": -12.0,
+                "AXA": -6.0,
+                "SOCIETE_GENERALE": -15.0
+            },
+            "volatility_multiplier": 2.0
+        },
+        "SEVERE_CRASH": {
+            "description": "Extreme simultaneous financial-market shock.",
+            "shocks": {
+                "BNP": -18.0,
+                "AXA": -15.0,
+                "SOCIETE_GENERALE": -22.0
+            },
+            "volatility_multiplier": 2.5
+        }
+    },
+    "methodology": "Deterministic asset shocks combined with volatility scaling.",
+    "warning": "Stress scenarios are hypothetical and are not forecasts."
+}

@@ -1,0 +1,23 @@
+{
+    "portfolio_weights": {
+        "BNP": 0.3333333333333333,
+        "AXA": 0.3333333333333333,
+        "SOCIETE_GENERALE": 0.3333333333333333
+    },
+    "correlation_window": 60,
+    "confidence_levels": [
+        0.95,
+        0.99
+    ],
+    "distribution": "standardized Student-t",
+    "student_t_degrees_of_freedom": 2.9231448616232036,
+    "market_factors": [
+        "CAC40",
+        "SP500"
+    ],
+    "portfolio_assets": [
+        "BNP",
+        "AXA",
+        "SOCIETE_GENERALE"
+    ]
+}

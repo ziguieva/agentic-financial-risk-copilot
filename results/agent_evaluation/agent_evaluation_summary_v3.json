@@ -1,0 +1,59 @@
+{
+  "model": "llama3.2:3b",
+  "total_cases": 40,
+  "top1_tool_accuracy_pct": 100.0,
+  "raw_single_call_compliance_pct": 97.5,
+  "guarded_single_call_compliance_pct": 100.0,
+  "top1_raw_argument_accuracy_pct": 97.5,
+  "top1_guarded_argument_accuracy_pct": 100.0,
+  "raw_strict_call_accuracy_pct": 95.0,
+  "final_execution_accuracy_pct": 100.0,
+  "top1_valid_call_rate_pct": 100.0,
+  "raw_multiple_tool_call_rate_pct": 2.5,
+  "guarded_multiple_tool_call_rate_pct": 0.0,
+  "mean_latency_seconds": 0.5437,
+  "p95_latency_seconds": 0.6878,
+  "max_latency_seconds": 3.2006,
+  "by_category": {
+    "current_risk": {
+      "n_cases": 10,
+      "top1_tool_accuracy_pct": 100.0,
+      "raw_single_call_compliance_pct": 100.0,
+      "guarded_single_call_compliance_pct": 100.0,
+      "raw_argument_accuracy_pct": 100.0,
+      "guarded_argument_accuracy_pct": 100.0,
+      "raw_strict_accuracy_pct": 100.0,
+      "final_execution_accuracy_pct": 100.0
+    },
+    "model_comparison": {
+      "n_cases": 10,
+      "top1_tool_accuracy_pct": 100.0,
+      "raw_single_call_compliance_pct": 100.0,
+      "guarded_single_call_compliance_pct": 100.0,
+      "raw_argument_accuracy_pct": 100.0,
+      "guarded_argument_accuracy_pct": 100.0,
+      "raw_strict_accuracy_pct": 100.0,
+      "final_execution_accuracy_pct": 100.0
+    },
+    "stress_test": {
+      "n_cases": 10,
+      "top1_tool_accuracy_pct": 100.0,
+      "raw_single_call_compliance_pct": 100.0,
+      "guarded_single_call_compliance_pct": 100.0,
+      "raw_argument_accuracy_pct": 90.0,
+      "guarded_argument_accuracy_pct": 100.0,
+      "raw_strict_accuracy_pct": 90.0,
+      "final_execution_accuracy_pct": 100.0
+    },
+    "var_backtest": {
+      "n_cases": 10,
+      "top1_tool_accuracy_pct": 100.0,
+      "raw_single_call_compliance_pct": 90.0,
+      "guarded_single_call_compliance_pct": 100.0,
+      "raw_argument_accuracy_pct": 100.0,
+      "guarded_argument_accuracy_pct": 100.0,
+      "raw_strict_accuracy_pct": 90.0,
+      "final_execution_accuracy_pct": 100.0
+    }
+  }
+}

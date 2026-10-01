@@ -1,0 +1,4 @@
+id,category,question,expected_tool,predicted_tool,expected_arguments,raw_arguments,guarded_arguments,tool_call_count,routing_correct,raw_arguments_correct,guarded_arguments_correct,full_call_correct,valid_call,latency_seconds,error
+24,var_backtest,La VaR 95 % du modèle hybride passe-t-elle le backtest ?,get_var_backtest,get_var_backtest,{},{},{},3,False,False,False,False,False,1.2631,
+25,var_backtest,Est-ce que GARCH à 99 % respecte la fréquence de violations attendue ?,get_var_backtest,get_var_backtest,{},{},{},3,False,False,False,False,False,1.0663,
+39,stress_test,Compare tous les scénarios de stress disponibles.,run_stress_analysis,run_stress_analysis,{},"{""scenario"": ""ALL""}",{},1,True,False,False,False,False,0.5011,Invalid stress scenario: ALL
